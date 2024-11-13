@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Proje Kurulumu ve Çalıştırma
+
+1. Depoyu klonlayın.
+2. Bağımlılıkları yüklemek için:
+   ```bash
+   npm install
+
+npm start

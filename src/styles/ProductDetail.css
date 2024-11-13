@@ -1,0 +1,80 @@
+.product-detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  animation: fadeInDetail 0.7s ease-in;
+}
+
+@keyframes fadeInDetail {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.product-image-container {
+  flex: 1;
+  text-align: center;
+  padding-right: 20px;
+}
+
+.product-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.product-image:hover {
+  transform: scale(1.08);
+}
+
+.product-info {
+  flex: 1;
+  padding: 20px;
+  animation: slideInInfo 0.8s ease;
+}
+
+@keyframes slideInInfo {
+  from { opacity: 0; transform: translateX(-20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.product-title {
+  font-size: 2.5em;
+  color: #ecf0f1;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px #2c3e50;
+  text-align: center; /* Ürün detay başlıklarını ortala */
+}
+
+.product-description {
+  font-size: 1.2em;
+  color: #bdc3c7;
+  margin-bottom: 20px;
+  text-align: center; /* Ürün açıklamalarını ortala */
+}
+
+.product-price {
+  font-size: 2em;
+  color: #e74c3c;
+  margin-bottom: 20px;
+  text-align: center; /* Fiyatları ortala */
+}
+
+.buy-button {
+  padding: 15px 30px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #3498db;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.buy-button:hover {
+  background-color: #2980b9;
+  transform: scale(1.1);
+}
